@@ -12,5 +12,5 @@ fun main() {
 }
 
 fun findAverage(a: Int, b: Int, c: Int): Int {
-    return (a + b + c) / 3
+    return listOf(a, b, c).sorted()[1]
 }
